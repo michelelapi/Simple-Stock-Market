@@ -63,7 +63,7 @@ I used Maven to help the user to run the application start-up in the IDE (Eclips
 1. Download the source of the project from GitHub
 2. Import the source into Eclipse as Maven Project
 
-
+![Simple Stocks Market - Install(https://github.com/michelelapi/Simple-Stock-Market/master/Eclipse_maven.png "Simple Stocks Market- Install")
 
 ##### Technical Design
 
