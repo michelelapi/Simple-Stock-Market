@@ -62,11 +62,16 @@ I used Maven to help the user to run the application start-up in the IDE (Eclips
 #### Steps
 1. Download the source of the project from GitHub
 2. Import the source into Eclipse as Maven Project
-    2.1. Click the right button of the mouse on project name and select the command Run AS/Maven install (see the picture below).
+    
+    2.1. Click the right button of the mouse into the tab "Package Explorer" and select the command Import and "Maven/Existing Maven Projects" (see the picture below).
+![Simple Stocks Market - Import](https://github.com/michelelapi/Simple-Stock-Market/blob/master/Eclipse_import.png "Simple Stocks Market- Import")
 
-![Simple Stocks - Install](https://github.com/michelelapi/Simple-Stock-Market/blob/master/Eclipse_maven.png "Simple Stocks Market- Install")
+    2.2. Click the right button of the mouse on project name and select the command Run AS/Maven install (see the picture below).
 
-    2.2. To run the application, click the right button of the mouse on project name and select the command Run AS/Java Application.
-    2.3. To run tests, click the right button of the mouse on project name and select the command Run AS/JUnit Test.
+![Simple Stocks Market - Install](https://github.com/michelelapi/Simple-Stock-Market/blob/master/Eclipse_maven.png "Simple Stocks Market- Install")
+
+    2.3. To run the application, click the right button of the mouse on project name and select the command Run AS/Java Application.
+        2.3.1 Remember that the application requires J2SE 1.8, otherwise the functional programming don't run.
+    2.4. To run tests, click the right button of the mouse on project name and select the command Run AS/JUnit Test.
          
 The logs are shown in the console or in the "logs/log4j-application.log" file, automatically created by Log4J.
