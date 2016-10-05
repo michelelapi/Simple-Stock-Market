@@ -62,8 +62,14 @@ I used Maven to help the user to run the application start-up in the IDE (Eclips
 #### Steps
 1. Download the source of the project from GitHub
 2. Import the source into Eclipse as Maven Project
+    2.1. Click the right button of the mouse on project name and select the command Run AS/Maven install (see the picture below).
 
-![Simple Stocks Market - Install(https://github.com/michelelapi/Simple-Stock-Market/master/Eclipse_maven.png "Simple Stocks Market- Install")
+![Simple Stocks - Install](https://github.com/michelelapi/Simple-Stock-Market/blob/master/Eclipse_maven.png "Simple Stocks Market- Install")
+
+    2.2. To run the application, click the right button of the mouse on project name and select the command Run AS/Java Application.
+    2.3. To run tests, click the right button of the mouse on project name and select the command Run AS/JUnit Test.
+         
+
 
 ##### Technical Design
 
