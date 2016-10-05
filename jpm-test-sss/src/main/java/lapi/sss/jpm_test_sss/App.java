@@ -83,37 +83,5 @@ public class App {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-    	
-//    	BufferedReader br = null;
-//
-//        try {
-//
-//            br = new BufferedReader(new InputStreamReader(System.in));
-//
-//            while (true) {
-//
-//                System.out.print("Enter something : ");
-//                String input = br.readLine();
-//
-//                if ("q".equals(input)) {
-//                    System.out.println("Exit!");
-//                    System.exit(0);
-//                }
-//
-//                System.out.println("input : " + input);
-//                System.out.println("-----------\n");
-//            }
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } finally {
-//            if (br != null) {
-//                try {
-//                    br.close();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//        }
     }
 }
